@@ -1,0 +1,120 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  padding: 40px;
+  background-color: #151515;
+  font-family: "Franklin Gothic Medium", 'Arial', sans-serif;
+}
+
+h2{
+  color: #fff;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 48px;
+}
+
+.card-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+ul {
+  list-style-type: none;
+  display: block;
+}
+
+li {
+  display:flex;
+  justify-content: space-between;
+  align-items: flex;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #333;
+  border-radius: 10px;
+  width: 350px;
+}
+
+li.switch.false{
+   background-color: #fff782;
+}
+li.switch.true{
+  background-color: greenyellow;
+}
+
+li p{
+  text-align: left;
+  max-width: 65%;
+}
+
+.card{
+  justify-items: space-between;
+  padding: 20px;
+  margin: 10px;
+  min-height: 100px;
+}
+
+.buttons button{
+  margin: 5px;
+  width: 60%;
+  height: 25px;
+  border: 1px solid black;
+  border-radius: 20px;
+  background-color: transparent;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+input {
+  width: 250px;
+  height: 50px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  margin: 20px;
+  padding: 5px;
+  background-color: #474747;
+  color: white;
+}
+
+.addTask{
+  justify-items: end;
+}
+
+.addTask button{
+  height: 25px;
+  width: 50px;
+  background-color: rgb(9, 218, 9);
+  border: 1px solid black;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.clearButton{
+  margin-top: 50px;
+}
+
+.clearButton button{
+  height: 30px;
+  width: 100px;
+  border: 1px solid black ;
+  border-radius: 10px;
+  background-color: rgb(250, 97, 97);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
